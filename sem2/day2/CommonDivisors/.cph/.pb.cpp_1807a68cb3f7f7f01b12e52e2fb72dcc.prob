@@ -1,0 +1,1 @@
+{"name":"Local: pb","url":"d:\\practicando\\sem2\\day2\\CommonDivisors\\pb.cpp","tests":[{"id":1778043735727,"input":"5\n7 14 15 7 9","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\practicando\\sem2\\day2\\CommonDivisors\\pb.cpp","group":"local","local":true}
