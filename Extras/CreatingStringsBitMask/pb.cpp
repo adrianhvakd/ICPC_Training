@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+
+#define fin '\n'
+#define fastio ios_base::sync_with_stdio(0);cin.tie(0);
+
+using namespace std;
+
+typedef long long ll;
+typedef vector<ll> vii;
+typedef vector<int> vi;
+
+int main(){
+    fastio
+    string s;
+    cin >> s;
+    for(int mask = 0; mask < (1 << (int)s.length()); mask++){
+
+        for(int i = 0; i < (int)s.length(); i++){
+            if(mask & ( 1 << i))
+                cout << s[i] << " ";
+        }
+
+        cout << fin;
+    }
+
+    return 0;
+}
